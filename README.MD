@@ -12,6 +12,6 @@ Example: Enter your application number :
        1067, 1464, 1015, 1010, 1418, 1298, 1296, 1033, 1491, 1063, 1498,
        1125, 1080, 1259, 1152, 1029
 
-For exemple, command to execute: bash launch.sh test.csv 1036
+For exemple, command to execute: bash launch.sh 1036
 
-Expected is result is the Average, Name of candidate and Admit decision.
+Expected is result is the Name of candidate, Date of birth, Average mark , Coment and Admit decision.
