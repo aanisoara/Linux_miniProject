@@ -1,10 +1,11 @@
-ADMET Project:
-Description: this is our project that checks if the applicant is admited or not at Medical University in USA based on its average !
+Application ADMIT:
 
-Command to launch project is: launch.sh <OUTPUT FILE PATH> <Application Number: >
+Description: Notre application permet aux candidats de l'Université de Médecine aux USA d'obtenir leurs résultats d'admission.
+Deux commandes sont indispensables:
+- bash instal.sh --> pour installer les dépendances 
+- bash launch.sh <Application Number: >
 
-Example: Enter your application number :
-    Please notice that all application number are in the list below :
+Les numéros des candidats figurent dans la liste ci-dessous:
 
        1036, 1072, 1294, 1467, 1039, 1021, 1016, 1025, 1032, 1268, 1087,
        1047, 1050, 1495, 1263, 1354, 1028, 1011, 1480, 1489, 1008, 1257,
@@ -12,8 +13,13 @@ Example: Enter your application number :
        1067, 1464, 1015, 1010, 1418, 1298, 1296, 1033, 1491, 1063, 1498,
        1125, 1080, 1259, 1152, 1029
 
-For exemple, command to execute: bash launch.sh 1036
+Exemple: bash launch.sh 1036
 
-Expected is result is the Name of candidate, Date of birth, Average mark , Coment and Admit decision.
+La sortie attendue de l'application contient :
+- Le nom du candidat 
+- La date de naissance
+- La moyenne obtenue par le candidat
+- La décision d'admission du jury
+- Des information complementaire
 
 On a créé une app qui est accessible ici [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://diakitegaoussou4996-linux-app-0dyc92.streamlit.app/)
