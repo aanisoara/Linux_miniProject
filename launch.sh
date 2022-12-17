@@ -1,12 +1,11 @@
 #!/bin/shell
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 Number=$1
 
 echo "Numero candidature: " ${Number}
 
 
-source /root/miniconda/etc/profile.d/conda.sh
+source ~/miniconda/etc/profile.d/conda.sh
 conda activate
-python /root/projet_linux/Data_preprocess/data_result.py ${Number}
+python ~/Projets_1_Master2/Data_preprocess/data_result.py ${Number}
 conda deactivate
-

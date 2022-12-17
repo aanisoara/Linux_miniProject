@@ -1,7 +1,0 @@
-{
-  "_libgcc_mutex": "0.1 main",
-  "ctng_target_platform": "linux-64",
-  "libgomp_ver": "1.0.0",
-  "target_platform": "linux-64",
-  "openmp_ver": "4.5"
-}

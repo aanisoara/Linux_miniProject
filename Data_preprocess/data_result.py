@@ -3,8 +3,8 @@ import numpy as np
 import sys
 
 
-data1 = pd.read_csv(r'/root/projet_linux/Data_collect/Data1.csv')
-data2 = pd.read_csv(r'/root/projet_linux/Data_collect/Data2.csv')
+data1 = pd.read_csv(r'~/Projets_1_Master2/Data_collect/Data1.csv')
+data2 = pd.read_csv(r'~/Projets_1_Master2/Data_collect/Data2.csv')
 
 table = pd.merge(data1, data2)
 

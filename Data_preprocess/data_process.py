@@ -1,5 +1,5 @@
 
-
+setwd("~/Projets_1_Master2")
 import numpy as np
 import sys
 import streamlit as st
@@ -18,8 +18,8 @@ st.subheader("Application: ADMIT")
 st.markdown("***Cette application affiche le resultat***")
 
 
-data1 = pd.read_csv(r'/root/projet_linux/Data_collect/Data1.csv')
-data2 = pd.read_csv(r'/root/projet_linux/Data_collect/Data2.csv')
+data1 = pd.read_csv(r'~/Data_collect/Data1.csv')
+data2 = pd.read_csv(r'~/Data_collect/Data2.csv')
 
 table = pd.merge(data1, data2)
 
