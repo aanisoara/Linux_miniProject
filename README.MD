@@ -22,4 +22,4 @@ La sortie attendue de l'application contient :
 - La décision d'admission du jury
 - Des information complementaire
 
-On a créé une app qui est accessible ici [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://diakitegaoussou4996-linux-app-0dyc92.streamlit.app/)
+Nous avons également une application qui est accessible ici [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://diakitegaoussou4996-linux-app-0dyc92.streamlit.app/)
