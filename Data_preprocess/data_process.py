@@ -1,5 +1,5 @@
 
-setwd("~/Projets_1_Master2")
+
 import numpy as np
 import sys
 import streamlit as st
