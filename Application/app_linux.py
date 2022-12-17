@@ -6,9 +6,9 @@ from PIL import Image
 
 st.image('https://raw.githubusercontent.com/aanisoara/Projets_1_Master2/master/Application/photo.jpg')
 
-st.title("Application d'admission")
-st.subheader("Application réalisée par Anisoara, Eunice, Gaoussou")
-st.markdown("***Cette application affiche le resultat***")
+st.title("Application ADMIT")
+st.subheader("Application réalisée par Anisoara, Eunice et Gaoussou")
+st.markdown("***Cette application affiche le résultat***")
 
 #Importation de la table 
 table = pd.read_csv("https://raw.githubusercontent.com/aanisoara/Projets_1_Master2/master/Application/adm.csv.xls", sep = ",")
@@ -21,7 +21,7 @@ table['FinalMark'] = table[['HighSchool GPA','Physics Marks', 'Chem Marks', 'Bio
 table['Admit']=np.where(table['FinalMark']>50, 'OUI', 'NON')
 
 #Création d'une nouvelle variable pour l'appréciation du jury
-table['Decision'] = ["\nFelicitations!!! \nVous etes admis! \N{winking face} \n\nLa note de reference choisie par le jury est 50.\nNous serons heureux de vous accueillir au sein de notre Universite. " if s == 'OUI' else "Desole, vous n'etes pas admis. \n\nLa note de reference choisie par le jury est 50. \n \nNous vous souhaitons bonne continuation dans vos recherches. \n" for s in table['Admit']]
+table['Decision'] = ["\nFélicitations!!! \nVous êtes admis! \N{winking face} \n\nLa note de référence choisie par le jury est 50.\nNous serons heureux de vous accueillir au sein de notre Université. " if s == 'OUI' else "Désolé, vous n'êtes pas admis. \n\nLa note de référence choisie par le jury est 50. \n \nNous vous souhaitons bonne continuation dans vos rechérches. \n" for s in table['Admit']]
 
 #Transformation de la variable Application en objet
 table["Application No"]=table["Application No"].astype(str)
@@ -43,12 +43,11 @@ def recherche():
         st.write("")
     elif Recherche not in Numero:
         
-        st.write("Ce numero n'est pas correcte ou n'est disponible dans nos bases des données, veuillez saisir a nouveau votre numéro à 4 chiffres")
+        st.write("Ce numéro n'est pas correct ou est indisponible dans nos bases des données, veuillez saisir à nouveau votre numéro à 4 chiffres")
         
     else:
-        st.write('Ce numéro est bien disponible dans nos bases des données')
-        st.write(' Votre nom est',  Name_[0])
-        st.write("Née le  ", date_nai[0])
+        st.write('Votre nom est : ',  Name_[0])
+        st.write("Née le : ", date_nai[0])
         st.write("Admission : ", admit[0])
         st.write(deci[0])
       
