@@ -1,0 +1,44 @@
+==> 2022-04-21 09:03:40 <==
+# cmd: build.py --build_number 1 --product miniconda --python 3.9 --installer-type sh --output-dir /tmp/build/082f3ea1/output-installer/220421/ --standalone /opt/conda/standalone_conda/conda.exe
++defaults::python-3.9.12-h12debd9_0
++defaults::_libgcc_mutex-0.1-main
++defaults::ca-certificates-2022.3.29-h06a4308_1
++defaults::ld_impl_linux-64-2.35.1-h7274673_9
++defaults::libstdcxx-ng-9.3.0-hd4cf53a_17
++defaults::tzdata-2022a-hda174b7_0
++defaults::libgomp-9.3.0-h5101ec6_17
++defaults::_openmp_mutex-4.5-1_gnu
++defaults::libgcc-ng-9.3.0-h5101ec6_17
++defaults::libffi-3.3-he6710b0_2
++defaults::ncurses-6.3-h7f8727e_2
++defaults::openssl-1.1.1n-h7f8727e_0
++defaults::xz-5.2.5-h7b6447c_0
++defaults::yaml-0.2.5-h7b6447c_0
++defaults::zlib-1.2.12-h7f8727e_1
++defaults::readline-8.1.2-h7f8727e_1
++defaults::tk-8.6.11-h1ccaba5_0
++defaults::sqlite-3.38.2-hc218d9a_0
++defaults::certifi-2021.10.8-py39h06a4308_2
++defaults::charset-normalizer-2.0.4-pyhd3eb1b0_0
++defaults::colorama-0.4.4-pyhd3eb1b0_0
++defaults::idna-3.3-pyhd3eb1b0_0
++defaults::pycosat-0.6.3-py39h27cfd23_0
++defaults::pycparser-2.21-pyhd3eb1b0_0
++defaults::pysocks-1.7.1-py39h06a4308_0
++defaults::ruamel_yaml-0.15.100-py39h27cfd23_0
++defaults::six-1.16.0-pyhd3eb1b0_1
++defaults::wheel-0.37.1-pyhd3eb1b0_0
++defaults::cffi-1.15.0-py39hd667e15_1
++defaults::setuptools-61.2.0-py39h06a4308_0
++defaults::tqdm-4.63.0-pyhd3eb1b0_0
++defaults::brotlipy-0.7.0-py39h27cfd23_1003
++defaults::conda-package-handling-1.8.1-py39h7f8727e_0
++defaults::cryptography-36.0.0-py39h9ce1e76_0
++defaults::pip-21.2.4-py39h06a4308_0
++defaults::conda-content-trust-0.1.1-pyhd3eb1b0_0
++defaults::pyopenssl-22.0.0-pyhd3eb1b0_0
++defaults::urllib3-1.26.8-pyhd3eb1b0_0
++defaults::requests-2.27.1-pyhd3eb1b0_0
++defaults::conda-4.12.0-py39h06a4308_0
+# update specs: ['conda', 'python=3.9']
+
