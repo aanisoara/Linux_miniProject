@@ -1,4 +1,7 @@
-Application ADMIT:
+Application ADMIT créée par les étudiants MoSEF 2:
+- Anisoara ABABII
+- Gaoussou DIAKITE
+- Eunice KOFFI
 
 Description: Notre application permet aux candidats de l'Université de Médecine aux USA d'obtenir leurs résultats d'admission.
 Deux commandes sont indispensables:
