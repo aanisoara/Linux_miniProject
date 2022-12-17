@@ -15,3 +15,5 @@ Example: Enter your application number :
 For exemple, command to execute: bash launch.sh 1036
 
 Expected is result is the Name of candidate, Date of birth, Average mark , Coment and Admit decision.
+
+On a créé une app qui est accessible ici [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://diakitegaoussou4996-linux-app-0dyc92.streamlit.app/)
