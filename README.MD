@@ -23,6 +23,6 @@ La sortie attendue de l'application contient :
 - La date de naissance
 - La moyenne obtenue par le candidat
 - La décision d'admission du jury
-- Des information complementaire
+- Des informations complementaires
 
 Nous avons également une application qui est accessible ici [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://diakitegaoussou4996-linux-app-0dyc92.streamlit.app/)
